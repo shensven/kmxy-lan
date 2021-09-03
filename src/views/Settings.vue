@@ -5,6 +5,7 @@
         <v-col class="mt-8 ml-4 mr-4">
           <v-text-field
             label="网关"
+            maxlength="15"
             solo
             persistent-hint
             :hint="hintGateway"
@@ -13,13 +14,20 @@
           ></v-text-field>
           <v-text-field
             label="物理地址"
+            maxlength="17"
             solo
             persistent-hint
             :hint="hintMac"
-            v-model="mac"
             @keyup.enter="persist"
+            v-model="mac"
           ></v-text-field>
-          <v-btn width="100%" class="mt-8" large depressed @click="persist"
+          <v-btn
+            width="100%"
+            class="mt-8"
+            large
+            depressed
+            :disabled="btnDisabled"
+            @click="persist"
             >保存</v-btn
           >
         </v-col>
@@ -35,7 +43,8 @@ export default {
     gateway: '',
     mac: '',
     hintGateway: '',
-    hintMac: ''
+    hintMac: '',
+    btnDisabled: false
   }),
   mounted() {
     if (localStorage.gateway) {
@@ -46,10 +55,20 @@ export default {
     }
   },
   watch: {
-    // gateway(newGateway) {
-    //   localStorage.gateway = newGateway
-    // }
+    gateway(newValue) {
+      this.gateway = newValue.replace(/[^\d]/g, '')
+    }
   },
+  // computed: {
+  //   inputIP: {
+  //     get: function () {
+  //       return this.gateway
+  //     },
+  //     set: function (newValue) {
+  //       this.gateway = newValue.replace(/[^\d]/g, '')
+  //     }
+  //   }
+  // },
   methods: {
     persist() {
       if (this.gateway.length > 0 && this.mac.length > 0) {
