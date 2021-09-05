@@ -15,7 +15,7 @@
   "dependencies": {
     "@mdi/font": "^5.9.55",
     "axios": "^0.21.3",
-    "core-js": "^3.6.5",
+    "core-js": "^3.17.2",
     "typeface-roboto": "^1.1.13",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
