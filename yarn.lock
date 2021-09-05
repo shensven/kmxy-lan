@@ -3167,10 +3167,10 @@ core-js-compat@^3.14.0, core-js-compat@^3.16.0, core-js-compat@^3.6.5:
     browserslist "^4.16.8"
     semver "7.0.0"
 
-core-js@^3.6.5:
-  version "3.16.3"
-  resolved "https://registry.nlark.com/core-js/download/core-js-3.16.3.tgz#1f2d43c51a9ed014cc6c83440af14697ae4b75f2"
-  integrity sha1-Hy1DxRqe0BTMbINECvFGl65LdfI=
+core-js@^3.17.2, core-js@^3.6.5:
+  version "3.17.2"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.17.2.tgz#f960eae710dc62c29cca93d5332e3660e289db10"
+  integrity sha512-XkbXqhcXeMHPRk2ItS+zQYliAMilea2euoMsnpRRdDad6b2VY6CQQcwz1K8AnWesfw4p165RzY0bTnr3UrbYiA==
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
