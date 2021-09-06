@@ -13,7 +13,7 @@
   },
   "main": "background.js",
   "dependencies": {
-    "@mdi/font": "^5.9.55",
+    "@mdi/font": "^6.1.95",
     "axios": "^0.21.3",
     "core-js": "^3.17.2",
     "typeface-roboto": "^1.1.13",
