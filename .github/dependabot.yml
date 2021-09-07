@@ -10,3 +10,14 @@ updates:
     schedule:
       interval: 'daily'
     target-branch: 'dev'
+    ignore:
+      - dependency-name: 'core-js'
+        update-types: ['version-update:semver-major']
+      - dependency-name: 'vue'
+        update-types: ['version-update:semver-major']
+      - dependency-name: 'vue-router'
+        update-types: ['version-update:semver-major']
+      - dependency-name: 'vuetify'
+        update-types: ['version-update:semver-major']
+      - dependency-name: 'axios'
+        update-types: ['version-update:semver-major']
