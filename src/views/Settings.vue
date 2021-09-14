@@ -56,7 +56,7 @@ export default {
   },
   watch: {
     gateway(newValue) {
-      this.gateway = newValue.replace(/[^\d]/g, '')
+      // this.gateway = newValue.replace(/[^\d]/g, '')
     }
   },
   // computed: {
