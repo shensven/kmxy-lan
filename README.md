@@ -9,6 +9,14 @@
 
 Next generation of Kmxy LAN authentication client
 
+## Preview
+
+![Screenshot 1](src/assets/screenshot0.png)
+
+| ![Screenshot 1](src/assets/screenshot1.png) | ![Screenshot 1](src/assets/screenshot2.png) |
+| :-----------------------------------------: | :-----------------------------------------: |
+
+
 ## Get Started
 
 ```sh
