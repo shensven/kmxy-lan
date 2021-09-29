@@ -9973,10 +9973,10 @@ vuetify-loader@^1.7.3:
     file-loader "^6.2.0"
     loader-utils "^2.0.0"
 
-vuetify@^2.4.0:
-  version "2.5.8"
-  resolved "https://registry.nlark.com/vuetify/download/vuetify-2.5.8.tgz#a23e6a7e77b77de0744b53cf1e7c9d40efac0635"
-  integrity sha1-oj5qfne3feB0S1PPHnydQO+sBjU=
+vuetify@^2.5.9:
+  version "2.5.9"
+  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-2.5.9.tgz#b6e6d9fff4a1691858f3415eceb2a75ca706d211"
+  integrity sha512-rQaa8MDxnv449l+XCmFCN9bRQpCUT8mewW6yIc6DHiXh9bAneD6jXF023doK0KkcS8+vRSrtgBESsLYA6te+dg==
 
 watchpack-chokidar2@^2.0.1:
   version "2.0.1"
