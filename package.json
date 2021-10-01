@@ -14,7 +14,7 @@
   "main": "background.js",
   "dependencies": {
     "@mdi/font": "^6.1.95",
-    "axios": "^0.21.4",
+    "axios": "^0.22.0",
     "core-js": "^3.18.1",
     "typeface-roboto": "^1.1.13",
     "vue": "^2.6.11",
