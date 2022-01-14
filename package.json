@@ -19,7 +19,7 @@
     "typeface-roboto": "^1.1.13",
     "vue": "^2.6.11",
     "vue-router": "^3.5.3",
-    "vuetify": "^2.6.0"
+    "vuetify": "^2.6.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.15",
@@ -36,7 +36,7 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^6.2.2",
-    "sass": "~1.45.1",
+    "sass": "~1.48.0",
     "sass-loader": "^10.2.0",
     "vue-cli-plugin-electron-builder": "~2.1.1",
     "vue-cli-plugin-vuetify": "~2.4.5",
